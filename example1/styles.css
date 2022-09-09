@@ -1,0 +1,59 @@
+body {
+  background-color: #141414;
+  font-family: main-font;
+}
+
+@font-face {
+  font-family: 'main-font';
+  src: url('fonts/Grafika.ttf');
+  format('truetype');
+}
+
+.name {
+  padding-top: 10%;
+  color: #00cc00;
+  font-size: 75px;
+  text-align: center;
+}
+
+.description {
+  /*border: 1px solid #00cc00;*/
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  margin: auto;
+  height: 55%;
+  width: 55%;
+}
+
+.para {
+  text-decoration: none;
+  font-size: 30px;
+  color: #9b9b9b;
+  text-align: center;
+}
+
+.links {
+  padding-top: 10px;
+  /*border: 1px solid #00cc00;*/
+  margin: auto;
+  height: 35%;
+  width: 70%;
+}
+
+a {
+  text-decoration: none;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 25px;
+  color: #7c7c7c;
+  -moz-transition: all .25s ease-in-out;
+  -webkit-transition: all .25s ease-in-out
+}
+
+i {
+  padding-right: 10px;
+}
+
+a:hover {
+  color: #ffffff;
+}
